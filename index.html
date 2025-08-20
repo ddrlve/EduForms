@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>EduForm - Platform Pelatihan Digital Terdepan</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img alt="EduForm Logo" src="./assets/images/logoEduForm.png" width="100"/>
+        </a>
+        <nav>
+            <a href="#tentang">Tentang Kami</a>
+            <a href="pages/programs.html">Program</a>
+            <a href="pages/testimonials.html">Testimoni</a>
+        </nav>
+        <a href="pages/profile.html">
+            <img alt="Profil" class="btn-profil" src="./assets/images/profile.png"/>
+        </a>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Wujudkan Impian Menjadi Programmer Profesional</h1>
+            <p>Mulai journey coding Anda hari ini</p>
+            <a href="pages/course-form.html">
+                <button class="btn-daftar">Daftar Sekarang</button>
+            </a>
+        </div>
+        <img alt="Hero Image" height="470" src="./assets/images/home3org.png" width="470">
+    </section>
+    
+    <section class="section-tentang" id="tentang">
+        <h2>Tentang Kami</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Visi</h3>
+                <p>Menjadi platform pelatihan digital terdepan yang memudahkan akses pendidikan teknologi informasi secara cepat, efisien, dan inklusif.</p>
+            </div>
+            <div class="card">
+                <h3>Misi</h3>
+                <p>Menyediakan kurikulum berbasis industri, program magang, koneksi industri, dan tempat belajar inklusif untuk semua kalangan.</p>
+            </div>
+            <div class="card" style="flex: 1 1 100%">
+                <h3>Deskripsi Produk</h3>
+                <p>EduForm adalah aplikasi pendaftaran pelatihan berbasis web yang dirancang untuk mempermudah akses belajar coding bagi semua kalangan. Dengan antarmuka yang sederhana dan ramah pengguna, EduForm memungkinkan pengguna menjelajahi dan mendaftar pelatihan secara cepat dan efisien.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section-program" id="program">
+        <h2>Program</h2>
+        <div class="program-cards">
+            <div class="program-card" style="background-image: url('./assets/images/weDev.jpg');"></div>
+            <div class="program-card" style="background-image: url('./assets/images/MobileDev.jpg');"></div>
+            <div class="program-card" style="background-image: url('./assets/images/DataScience.jpg');"></div>
+            <div class="program-card" style="background-image: url('./assets/images/ui_ux.jpg');"></div>
+            <div class="program-card" style="background-image: url('./assets/images/digMar.jpg');"></div>
+            <div class="program-card" style="background-image: url('./assets/images/cyber.jpg');"></div>
+        </div>
+    </section>
+    
+    <section class="section-testimoni" id="testimoni">
+        <h2>Testimoni</h2>
+        <div class="testimoni-slider">
+            <div class="testimoni-card active">
+                <div class="testimoni-content">
+                    <div class="testimoni-text">
+                        <p>"Saya tidak memiliki latar belakang IT, tapi EduForm membantu saya membangun fondasi yang kuat di dunia pemrograman. Berkat pelatihan-pelatihannya, saya kini bekerja sebagai Junior Web Developer di startup teknologi impian saya."</p>
+                        <hr class="line"/>
+                        <div class="author">
+                            <strong>Kimberly Santoso</strong><br/>
+                            Junior Web Developer – TechVerse<br/>
+                            Lulusan Front-End & Back-End Development Path
+                        </div>
+                    </div>
+                    <div class="testimoni-image">
+                        <img alt="Kimberly Santoso" src="./assets/images/kimberly_remove.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="testimoni-card">
+                <div class="testimoni-content">
+                    <div class="testimoni-text">
+                        <p>"Awalnya saya hanya iseng ikut pelatihan, tapi materi dari EduForm sangat aplikatif dan membuka wawasan saya. Kini saya sudah bekerja di divisi Data Analyst sebuah e-commerce nasional."</p>
+                        <hr class="line"/>
+                        <div class="author">
+                            <strong>Steven Purnama</strong><br/>
+                            Data Analyst – BelanjaMaju<br/>
+                            Lulusan Data Science & SQL Path
+                        </div>
+                    </div>
+                    <div class="testimoni-image">
+                        <img alt="Steven Purnama" src="./assets/images/steven.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="testimoni-card">
+                <div class="testimoni-content">
+                    <div class="testimoni-text">
+                        <p>"Pelatihan dari EduForm benar-benar jadi batu loncatan karier saya. Setelah menyelesaikan modul Cyber Security, saya langsung percaya diri melamar dan akhirnya diterima di Telkom sebagai bagian dari tim keamanan digital mereka."</p>
+                        <hr class="line"/>
+                        <div class="author">
+                            <strong>Alexander Prakoso</strong><br/>
+                            Cyber Security Associate – Telkom Indonesia<br/>
+                            Lulusan Cyber Security & Networking Path
+                        </div>
+                    </div>
+                    <div class="testimoni-image">
+                        <img alt="Alexander Prakoso" src="./assets/images/alexander.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimoni-nav">
+            <button id="prev">❮</button>
+            <div class="dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+            <button id="next">❯</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tentang EduForm</h3>
+                    <a href="#">Tentang kami</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Pusat Kontak</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(021) 3030-1111</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>0822-3457-999</span>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Ikuti Kami</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <img alt="EduForm Logo" src="./assets/images/logoEduForm.png"/>
+                </div>
+                <i class="fas fa-copyright"></i> 2025 EduForm. Semua hak cipta dilindungi.
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

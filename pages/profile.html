@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>EduForm - Profil Laura Sintya</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img alt="EduForm Logo" src="../assets/images/logoEduForm.png" width="100"/>
+                    </a>
+                </div>
+                <div class="search-bar">
+                    <input placeholder="Search for anything" type="text"/>
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                <nav class="nav-menu">
+                    <a href="programs.html">Program</a>
+                    <a href="testimonials.html">Testimoni</a>
+                    <a class="profile-icon" href="profile.html">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Profile Hero Section -->
+    <section class="profile-hero">
+        <div class="container">
+            <div class="profile-content">
+                <div class="profile-info">
+                    <h2>Pelajar</h2>
+                    <h1>Laura Sintya</h1>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <img alt="Profile Picture" src="../assets/images/profile.png"/>
+                    </div>
+                    <div class="profile-name">Laura</div>
+                    <a class="edit-profile-btn" href="edit-profile.html">Edit Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Section -->
+    <section class="learning-section">
+        <div class="container">
+            <h2 class="section-title">Pembelajaran Saya</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="../assets/images/dataScienceProfile.jpg" alt="Data Science Course"/>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Data Science</h3>
+                        <p class="course-description">Belajar Data Science dengan Praktik Langsung: 100 Latihan</p>
+                        <p class="course-author">Abdul Rachman</p>
+                        <div class="course-tags">
+                            <span class="tag">Pembelajaran</span>
+                            <span class="tag">6.5 Jam Total</span>
+                            <span class="tag">Pemula</span>
+                            <span class="tag">99 Penilaian</span>
+                        </div>
+                        <div class="course-meta">
+                            <div class="rating">
+                                <i class="fas fa-star rating-star"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="price">
+                                FREE
+                                <span class="price-strike">Rp 499.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="../assets/images/webDevelopProfile.jpg" alt="Web Development Course"/>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Web Development</h3>
+                        <p class="course-description">Belajar Web Development dengan Praktik Langsung...</p>
+                        <p class="course-author">Iman As-Salam</p>
+                        <div class="course-tags">
+                            <span class="tag">Pembelajaran</span>
+                            <span class="tag">10 Jam Total</span>
+                            <span class="tag">Lanjut</span>
+                            <span class="tag">150 Penilaian</span>
+                        </div>
+                        <div class="course-meta">
+                            <div class="rating">
+                                <i class="fas fa-star rating-star"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="price">
+                                FREE
+                                <span class="price-strike">Rp 499.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs-section" id="program">
+        <div class="container">
+            <h2 class="section-title">Program Lainnya</h2>
+            <div class="programs-slider">
+                <div class="programs-container" id="programsContainer">
+                    <div class="program-slide">
+                        <img alt="Web Development" src="../assets/images/webdevelopProgram.jpg"/>
+                        <div class="text-overlay">Web Development</div>
+                    </div>
+                    <div class="program-slide">
+                        <img alt="Mobile Development" src="../assets/images/mobiledevelopProgram.jpg"/>
+                        <div class="text-overlay">Mobile Development</div>
+                    </div>
+                    <div class="program-slide">
+                        <img alt="Data Science" src="../assets/images/datascienceProgram.jpg"/>
+                        <div class="text-overlay">Data Science</div>
+                    </div>
+                    <div class="program-slide">
+                        <img alt="UI UX" src="../assets/images/uiuxProgram.jpg"/>
+                        <div class="text-overlay">UI/UX Design</div>
+                    </div>
+                    <div class="program-slide">
+                        <img alt="Digital Marketing" src="../assets/images/digitalmarketingProgram.jpg"/>
+                        <div class="text-overlay">Digital Marketing</div>
+                    </div>
+                    <div class="program-slide">
+                        <img alt="Cyber Security" src="../assets/images/cybersecurityProgram.jpg"/>
+                        <div class="text-overlay">Cyber Security</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <div class="slider-dot active" onclick="goToSlide(0)"></div>
+                <div class="slider-dot" onclick="goToSlide(1)"></div>
+                <div class="slider-dot" onclick="goToSlide(2)"></div>
+                <div class="slider-dot" onclick="goToSlide(3)"></div>
+                <div class="slider-dot" onclick="goToSlide(4)"></div>
+                <div class="slider-dot" onclick="goToSlide(5)"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tentang EduForm</h3>
+                    <a href="#">Tentang kami</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Pusat Kontak</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(021) 3030-1111</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>0822-3457-999</span>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Ikuti Kami</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <img alt="EduForm Logo" src="../assets/images/logoEduForm.png"/>
+                </div>
+                <i class="fas fa-copyright"></i> 2025 EduForm. Semua hak cipta dilindungi.
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

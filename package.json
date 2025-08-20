@@ -1,0 +1,23 @@
+{
+  "name": "eduform-website",
+  "version": "1.0.0",
+  "description": "EduForm - Platform Pelatihan Digital Terdepan",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s . -l 3000",
+    "build": "echo 'Static site - no build needed'",
+    "dev": "serve -s . -l 3000"
+  },
+  "keywords": [
+    "education",
+    "training",
+    "coding",
+    "bootcamp",
+    "eduform"
+  ],
+  "author": "EduForm Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}
